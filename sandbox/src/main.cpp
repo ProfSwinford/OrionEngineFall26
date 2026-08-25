@@ -9,9 +9,26 @@
 // =============================================================================
 
 #include <engine/platform/Window.h>
-
 #include <SDL3/SDL.h>
+
+//define _CRTDBG_MAP_ALLOC
 #include <print>
+
+//int x[100];
+//
+//int main()
+//{
+//#ifdef __SANITIZE_ADDRESS__
+//    std::print("MSVC AddressSanitizer enabled");
+//#else
+//    std::print("MSVC AddressSanitizer not enabled");
+//#endif
+//
+//
+//    std::print("Hello!\n");
+//    x[100] = 5; // Boom!
+//    return 0;
+//}
 
 int main(int argc, char** argv) {
     (void)argc; (void)argv;   // Week 1 stretch goal 3 gives these a purpose.
